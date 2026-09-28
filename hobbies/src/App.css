@@ -1,0 +1,33 @@
+:root {
+  --bg: #09090b;
+  --surface: #121215;
+  --surface-alt: #1a1a20;
+  --line: rgba(255, 255, 255, 0.08);
+  --text-primary: #f4f4f5;
+  --text-secondary: #a1a1aa;
+  --accent: #818cf8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: var(--bg);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hobbies-main {
+  flex: 1;
+  padding: 0 24px;
+}
